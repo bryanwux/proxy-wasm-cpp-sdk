@@ -17,4 +17,4 @@
 source /root/emsdk/emsdk_env.sh
 cd /build
 make
-mv envoy-wasm-modsecurity-dynamic.cc /work
+mv envoy-wasm-modsecurity-dynamic.wasm /work
