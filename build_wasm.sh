@@ -15,5 +15,5 @@
 # limitations under the License.
 
 source /root/emsdk/emsdk_env.sh
-export PATH=/usr/local/bin:$PATH
+cd /work
 make
