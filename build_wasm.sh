@@ -15,5 +15,6 @@
 # limitations under the License.
 
 source /root/emsdk/emsdk_env.sh
-cd /work
+cd /build
 make
+mv envoy-wasm-modsecurity-dynamic.cc /work
