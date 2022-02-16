@@ -1,5 +1,5 @@
 PROXY_WASM_CPP_SDK=/sdk
 
-all: envoy-wasm-modsecurity.wasm
+all: envoy-wasm-modsecurity-dynamic.wasm
 
 include ${PROXY_WASM_CPP_SDK}/Makefile.modsecurity_wasm
