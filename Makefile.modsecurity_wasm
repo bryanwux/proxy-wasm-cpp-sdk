@@ -12,7 +12,7 @@ ABSL_CPP = ${ABSL}/absl/strings/str_cat.cc ${ABSL}/absl/strings/str_split.cc ${A
 MODSECURITY = /usr/local/modsecurity/
 PCRE = /usr/local/pcre/
 ISTIO_PROXY = /root/istio-proxy
-JSON_UTIL = /root/istio-proxy/bazel-bin/extensions/common/wasm
+JSON_UTIL = /root/istio-proxy/extensions/common/wasm
 WASM_PLUGIN = /root/test_wasm
 
 %.wasm %.wat: %.cc ${JSON_UTIL}/json_util.cc ${CPP_API}/proxy_wasm_intrinsics.h ${CPP_API}/proxy_wasm_enums.h ${CPP_API}/proxy_wasm_externs.h ${CPP_API}/proxy_wasm_api.h ${CPP_API}/proxy_wasm_intrinsics.js ${CPP_CONTEXT_LIB}
